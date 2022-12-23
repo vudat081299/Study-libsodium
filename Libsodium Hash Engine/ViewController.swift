@@ -13,7 +13,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
-        cd 
+        
         let filePath = "/Users/datvq/Desktop/Stuff/Libsodium Hash Engine/Libsodium Hash Engine/Two time pad attack.html"
         var bytes = [UInt8]()
         if let data = NSData(contentsOfFile: filePath) {
